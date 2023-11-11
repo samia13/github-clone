@@ -1,5 +1,12 @@
+import { Header, Footer } from "./components";
+
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <>
+      <Header />
+      <main></main>
+    </>
+  );
 }
 
 export default App;

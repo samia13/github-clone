@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-black-gradient {
+  background: linear-gradient(180deg, #131313, transparent);
+}
+
+header nav a:hover,
+header button:hover,
+header span:hover {
+  opacity: 0.7;
+}
