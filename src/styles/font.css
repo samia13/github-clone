@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Mona Sans";
+  src: url("../fonts/Mona-Sans.woff2") format("woff2"),
+    url("../fonts/Mona-Sans.ttf") format("truetype");
+  /* url("./fonts/mona-sans.ttf") format("truetype"); */
+  font-weight: normal;
+  font-style: normal;
+}
