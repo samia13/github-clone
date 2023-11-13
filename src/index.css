@@ -2,12 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-black-gradient {
-  background: linear-gradient(180deg, #131313, transparent);
+body {
+  background-color: #0d1117;
+  font-family: "Mona Sans", sans-serif;
 }
-
+.bg-black-gradient {
+  background: linear-gradient(180deg, #0d1117, transparent);
+}
 header nav a:hover,
 header button:hover,
 header span:hover {
   opacity: 0.7;
+}
+header form {
+  background-color: #a8bfe729;
+}
+
+.section-layout > div:first-child {
+  flex-basis: 9%;
+}
+.section-layout > div:last-child {
+  flex-basis: 91%;
+}
+.verticle-line {
+  width: 3px;
+  height: 100%;
+}
+.line-gradient-1 {
+  background: linear-gradient(transparent, #7c72ff 30%);
+}
+.line-gradient-2 {
+  background: linear-gradient(#7c72ff, #2da44e 80%, #3fb950);
+}
+.hero-title {
+  font-size: clamp(4rem, 9vw, 6rem);
+  line-height: clamp(4rem, 9vw, 6rem);
+  letter-spacing: 0.1rem !important;
+}
+
+.purple-gradient {
+  background: linear-gradient(
+      180deg,
+      rgba(183, 52, 179, 0.15) 0%,
+      rgba(164, 46, 156, 0) 100%
+    ),
+    #6e40c9;
+}
+
+.octicon-chevrow-stem {
+  transition: 0.5s ease;
+}
+.icon-wrapper:hover .arrow-symbol-mktg {
+  transform: translate(0);
+}
+.arrow-symbol-mktg {
+  transform: translateX(-5px);
+  transition: 0.5s ease;
+}
+.icon-wrapper:hover .octicon-chevrow-stem {
+  stroke-width: 1.5;
+}
+.btn {
+  box-shadow: #bc8cff 0 0 0 1px inset;
+  border: none;
 }

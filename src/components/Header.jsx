@@ -3,7 +3,7 @@ import { Search, Menu } from "react-feather";
 
 const Header = () => {
   return (
-    <header className='text-white bg-black'>
+    <header className='text-white bg-transparent fixed w-full z-10'>
       <div className='p-5 '>
         <div className='lg:hidden flex justify-between items-center'>
           <button className='px-2 py-1 rounded-md border border-white bg-transparent'>
@@ -24,7 +24,7 @@ const Header = () => {
           <Menu />
         </div>
         <div className='hidden lg:flex justify-between items-center'>
-          <nav className='flex gap-4 items-center'>
+          <nav className='flex gap-5 items-center'>
             <svg
               height='32'
               aria-hidden='true'
@@ -69,7 +69,6 @@ const Header = () => {
                 width='22'
                 height='20'
                 aria-hidden='true'
-                class='mr-1'
               >
                 <path
                   fill='none'
