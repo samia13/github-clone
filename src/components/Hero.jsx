@@ -7,7 +7,7 @@ import VerticleIcon from "./VerticleIcon";
 
 const Hero = () => {
   return (
-    <div className='overflow-hidden relative min-h-screen pt-16 pb-32'>
+    <div className='overflow-hidden relative min-h-screen pt-16 pb-5 px-6'>
       <img
         className='absolute left-[67%] top-0 w-[86%] -z-[1] hidden sm:block'
         src='images/hero-bg.webp'
@@ -18,8 +18,8 @@ const Hero = () => {
         src='images/hero-mobile.webp'
         alt='background'
       />
-      <div className='px-4'>
-        <div className='flex text-white section-layout pt-[6rem] '>
+      <div>
+        <div className='flex text-white section-layout pt-[6rem]'>
           {/* left side  */}
           <Divider>
             <span className='inline-block p-1 rounded-full border-2 border-white border-opacity-40'></span>

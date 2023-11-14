@@ -28,16 +28,15 @@ header form {
   width: 3px;
   height: 100%;
 }
+/* Gradients */
 .line-gradient-1 {
   background: linear-gradient(transparent, #7c72ff 30%);
 }
 .line-gradient-2 {
   background: linear-gradient(#7c72ff, #2da44e 80%, #3fb950);
 }
-.hero-title {
-  font-size: clamp(4rem, 9vw, 6rem);
-  line-height: clamp(4rem, 9vw, 6rem);
-  letter-spacing: 0.1rem !important;
+.green-transp-gradient {
+  background: linear-gradient(#3fb950, transparent);
 }
 
 .purple-gradient {
@@ -47,6 +46,16 @@ header form {
       rgba(164, 46, 156, 0) 100%
     ),
     #6e40c9;
+}
+.green-transp-gradient-rev {
+  background: linear-gradient(transparent, #3fb950 30%, transparent 70%);
+}
+
+/* end of Gradients */
+.hero-title {
+  font-size: clamp(4rem, 9vw, 6rem);
+  line-height: clamp(4rem, 9vw, 6rem);
+  letter-spacing: 0.1rem !important;
 }
 
 .octicon-chevrow-stem {
@@ -65,4 +74,18 @@ header form {
 .btn {
   box-shadow: #bc8cff 0 0 0 1px inset;
   border: none;
+}
+/* section style */
+.subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.section-title {
+  font-size: 2.4rem;
+}
+.section-media {
+  max-width: 100%;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 12px;
 }
