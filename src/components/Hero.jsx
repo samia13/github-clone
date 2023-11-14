@@ -1,10 +1,13 @@
 import React from "react";
 import CTA from "./CTA";
+import Divider from "./Divider";
 import ChevronIcon from "./ChevronIcon";
+import VerticleLine from "./VerticleLine";
+import VerticleIcon from "./VerticleIcon";
 
 const Hero = () => {
   return (
-    <div className='overflow-hidden relative min-h-screen pt-32 pb-32'>
+    <div className='overflow-hidden relative min-h-screen pt-16 pb-32'>
       <img
         className='absolute left-[67%] top-0 w-[86%] -z-[1] hidden sm:block'
         src='images/hero-bg.webp'
@@ -18,11 +21,10 @@ const Hero = () => {
       <div className='px-4'>
         <div className='flex text-white section-layout pt-[6rem] '>
           {/* left side  */}
-          <div className='flex justify-center items-center flex-col gap-4 pt-6'>
+          <Divider>
             <span className='inline-block p-1 rounded-full border-2 border-white border-opacity-40'></span>
-            <div className='verticle-line line-gradient-1'></div>
-            <span className='relative mb-4'>
-              <span className='absolute w-full h-full bg-light-purple-color top-0 left-0 blur-lg '></span>
+            <VerticleLine className='line-gradient-1'></VerticleLine>
+            <VerticleIcon color='bg-light-purple-color'>
               <svg
                 aria-hidden='true'
                 height='24'
@@ -34,9 +36,9 @@ const Hero = () => {
               >
                 <path d='M15.22 4.97a.75.75 0 0 1 1.06 0l6.5 6.5a.75.75 0 0 1 0 1.06l-6.5 6.5a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L21.19 12l-5.97-5.97a.75.75 0 0 1 0-1.06Zm-6.44 0a.75.75 0 0 1 0 1.06L2.81 12l5.97 5.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-6.5-6.5a.75.75 0 0 1 0-1.06l6.5-6.5a.75.75 0 0 1 1.06 0Z'></path>
               </svg>
-            </span>
-            <div className='verticle-line line-gradient-2'></div>
-          </div>
+            </VerticleIcon>
+            <VerticleLine className='line-gradient-2'></VerticleLine>
+          </Divider>
           {/* right side */}
           <div className='flex items-baseline flex-col gap-4 sm:gap-5 md:gap-9'>
             {/* Copilot */}
