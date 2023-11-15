@@ -8,7 +8,10 @@ import VerticleLine from "./VerticleLine";
 import VerticleIcon from "./VerticleIcon";
 import Button from "./Button";
 import StatText from "./StatText";
-// import VerticleIcon from "./VerticleIcon";
+import StatInfo from "./StatInfo";
+import Productivity from "./Productivity";
+import Collaboration from "./Collaboration";
+import Security from "./Security";
 
 export {
   Header,
@@ -21,4 +24,8 @@ export {
   VerticleLine,
   Button,
   StatText,
+  StatInfo,
+  Productivity,
+  Collaboration,
+  Security,
 };

@@ -18,6 +18,10 @@ header form {
   background-color: #a8bfe729;
 }
 
+.section {
+  @apply px-6 xl:px-60;
+}
+
 .section-layout > div:first-child {
   flex-basis: 9%;
 }
@@ -39,6 +43,21 @@ header form {
   background: linear-gradient(#3fb950, transparent);
 }
 
+.green-transp-gradient-rev {
+  background: linear-gradient(transparent, #3fb950 30%, transparent 100%);
+}
+
+.blue-transp-gradient {
+  background: linear-gradient(#33b3ae, transparent);
+}
+.blue-transp-gradient-rev {
+  background: linear-gradient(transparent, #33b3ae 30%, transparent 100%);
+}
+.transp-blue-gradient {
+  height: 160px;
+  background: linear-gradient(transparent, #33b3ae 40%);
+}
+
 .purple-gradient {
   background: linear-gradient(
       180deg,
@@ -46,9 +65,6 @@ header form {
       rgba(164, 46, 156, 0) 100%
     ),
     #6e40c9;
-}
-.green-transp-gradient-rev {
-  background: linear-gradient(transparent, #3fb950 30%, transparent 70%);
 }
 
 /* end of Gradients */
@@ -88,4 +104,25 @@ header form {
   max-width: 100%;
   border: 1px solid rgb(50, 50, 50);
   border-radius: 12px;
+}
+
+/* hover cards */
+.hover-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.card {
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 10px;
+  background-color: #161b22;
+}
+.card > div {
+  flex: 1;
+}
+.card:first-child {
+  grid-column: span 2;
+}
+.card > div:first-child {
+  padding: 40px;
 }

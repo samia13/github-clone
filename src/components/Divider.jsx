@@ -1,8 +1,10 @@
 import React from "react";
 
-const Divider = ({ children }) => {
+const Divider = ({ type = "col", children }) => {
   return (
-    <div className='flex justify-center items-center flex-col gap-4'>
+    <div
+      className={`flex justify-center relative items-center gap-4 flex-${type}`}
+    >
       {children}
     </div>
   );
