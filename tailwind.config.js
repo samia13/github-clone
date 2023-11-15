@@ -9,7 +9,7 @@ export default {
         "light-purple-color": "#7c72ff",
         "green-color": "#3fb950",
         "blue-color": "#33b3ae",
-        "pink-color": "#33b3ae",
+        "pink-color": "#f778ba",
         "p-color": "#7d8590",
       },
     },
