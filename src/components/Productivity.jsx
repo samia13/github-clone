@@ -70,8 +70,8 @@ const Productivity = () => {
         </div>
       </div>
       <div className='hover-cards'>
-        <div className='card flex'>
-          <div display='flex flex-1 flex-col justify-between'>
+        <div className='card flex full-card'>
+          <div className='flex flex-1 flex-col justify-between'>
             <StatText title='GitHub Actions'>
               automates your build, test, and deployment workflow with simple
               and secure CI/CD.

@@ -19,7 +19,7 @@ header form {
 }
 
 .section {
-  @apply px-6 xl:px-60;
+  @apply px-6 pt-4;
 }
 
 .section-layout > div:first-child {
@@ -56,6 +56,17 @@ header form {
 .transp-blue-gradient {
   height: 160px;
   background: linear-gradient(transparent, #33b3ae 40%);
+}
+
+.pink-transp-gradient {
+  background: linear-gradient(#f778ba, transparent);
+}
+.pink-transp-gradient-rev {
+  background: linear-gradient(transparent, #f778ba 30%, transparent 100%);
+}
+.transp-pink-gradient {
+  height: 160px;
+  background: linear-gradient(transparent, #f778ba 40%);
 }
 
 .purple-gradient {
@@ -117,12 +128,24 @@ header form {
   border-radius: 10px;
   background-color: #161b22;
 }
-.card > div {
-  flex: 1;
-}
-.card:first-child {
+.full-card {
   grid-column: span 2;
 }
 .card > div:first-child {
   padding: 40px;
+}
+.tables {
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 10px;
+  background-color: #161b22;
+}
+.tables-container {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) auto minmax(200px, 1fr);
+  justify-content: center;
+  align-items: start;
+}
+.table {
+  background: rgba(235, 245, 255, 0.2);
+  border-radius: 7px;
 }

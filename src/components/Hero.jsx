@@ -7,7 +7,7 @@ import VerticleIcon from "./VerticleIcon";
 
 const Hero = () => {
   return (
-    <div className='overflow-hidden relative min-h-screen pt-16 pb-5 px-6 xl:px-60'>
+    <div className='overflow-hidden relative min-h-screen pt-16 pb-5 px-6'>
       <img
         className='absolute left-[67%] top-0 w-[86%] -z-[1] hidden sm:block'
         src='images/hero-bg.webp'

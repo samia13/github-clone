@@ -1,5 +1,5 @@
+import { Check } from "react-feather";
 import {
-  Section,
   Divider,
   VerticleIcon,
   VerticleLine,
@@ -13,7 +13,7 @@ const Collaboration = () => {
     <section id='collaboration' className='section'>
       <div className='flex text-white section-layout'>
         <Divider>
-          <VerticleIcon color='bg-green-color'>
+          <VerticleIcon color='bg-pink-color'>
             <svg
               aria-hidden='true'
               height='24'
@@ -26,99 +26,96 @@ const Collaboration = () => {
               <path d='M7.5 1.75C7.5.784 8.284 0 9.25 0h5.5c.966 0 1.75.784 1.75 1.75V4h4.75c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 21.25 22H2.75A1.75 1.75 0 0 1 1 20.25V5.75C1 4.784 1.784 4 2.75 4H7.5Zm-5 10.24v8.26c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25v-8.26A4.235 4.235 0 0 1 18.75 13H5.25a4.235 4.235 0 0 1-2.75-1.01Zm19-3.24v-3a.25.25 0 0 0-.25-.25H2.75a.25.25 0 0 0-.25.25v3a2.75 2.75 0 0 0 2.75 2.75h13.5a2.75 2.75 0 0 0 2.75-2.75Zm-6.5-7a.25.25 0 0 0-.25-.25h-5.5a.25.25 0 0 0-.25.25V4h6Z'></path>
             </svg>
           </VerticleIcon>
-          <VerticleLine className='green-transp-gradient'></VerticleLine>
+          <VerticleLine className='pink-transp-gradient'></VerticleLine>
         </Divider>
         <div className='font-semibold mb-20'>
-          <h2 className='subtitle'>Productivity</h2>
+          <h2 className='subtitle'>Collaboration</h2>
           <div className='content'>
-            <h2 className='section-title text-green-color'>
-              Accelerate innovation
+            <h2 className='section-title text-pink-color'>
+              Supercharge collaboration
             </h2>
             <p className='text-4xl  leading-snug mb-3'>
-              Our AI-powered platform increases the pace of software
-              development.
+              GitHub helps your teams work more efficiently together.
             </p>
           </div>
         </div>
       </div>
       <img
         className='section-media'
-        src='images/collab1.png'
-        alt='Copilot illustration'
+        src='images/collab-bg.png'
+        alt='Collaboration'
       />
       <div className='flex text-white section-layout'>
         <Divider type='row'>
-          <VerticleLine className='green-transp-gradient-rev'></VerticleLine>
+          <VerticleLine className='pink-transp-gradient-rev'></VerticleLine>
           <img
             className='absolute max-h-[400px] left-1/2 -translate-x-[2px] bottom-0'
-            src='images/productivity-branch.svg'
+            src='images/pink-branch.svg'
             alt='branch'
           />
         </Divider>
         <div>
           <div className='my-20 px-10 mb-20'>
-            <StatText className='w-1/2' title='GitHub Copilot'>
-              empowers developers to complete tasks 55% faster with
-              contextualized AI coding assistance across workflows.
+            <StatText
+              className='w-1/2'
+              title='GitHub Issues and GitHub Projects'
+            >
+              supply project management tools that adapt to your team alongside
+              your code.
             </StatText>
-            <Button label='Explore GitHub Copilot' />
+            <Button label='Get started with GitHub Issues' />
           </div>
-          <StatInfo color='green' />
+          <StatInfo
+            color='pink'
+            title='80%'
+            description='reduction in onboarding time with GitHub2'
+          />
         </div>
       </div>
       <div className='hover-cards'>
-        <div className='card flex'>
+        <div className='card flex flex-col'>
           <div display='flex flex-1 flex-col justify-between'>
-            <StatText title='GitHub Actions'>
-              automates your build, test, and deployment workflow with simple
-              and secure CI/CD.
+            <StatText title='GitHub Discussions'>
+              creates space to ask questions and have open-ended conversations.
             </StatText>
-            <Button label='Discover GitHub Actions' />
+            <Button label='Jump into GitHub Discussions' />
           </div>
           <div className='relative flex-1'>
-            <img
-              className=''
-              src='images/github-action.png'
-              alt='github action'
-            />
+            <img className='' src='images/discussion.png' alt='discussion' />
           </div>
         </div>
         <div className='card flex flex-col'>
           <div display='flex flex-1 flex-col justify-between'>
-            <StatText title='GitHub Actions'>
-              automates your build, test, and deployment workflow with simple
-              and secure CI/CD.
+            <StatText title='Pull requests'>
+              allow real-time communication and collaboration about code
+              changes.
             </StatText>
-            <Button label='Discover GitHub Actions' />
+            <Button label='Check out pull requests' />
           </div>
           <div className='relative flex-1'>
             <img
               className=''
-              src='images/github-codebase.png'
-              alt='github action'
+              src='images/pull-request.png'
+              alt='pull request'
             />
           </div>
         </div>
-        <div className='card flex flex-col'>
-          <div display='flex flex-1 flex-col justify-between'>
-            <StatText title='GitHub Actions'>
-              automates your build, test, and deployment workflow with simple
-              and secure CI/CD.
+        <div className='card flex full-card'>
+          <div className='flex flex-1 flex-col justify-between'>
+            <StatText title='GitHub Sponsors'>
+              lets you support your favorite open source maintainers and
+              projects.
             </StatText>
-            <Button label='Discover GitHub Actions' />
+            <Button label='Invest with GitHub Sponsors' />
           </div>
           <div className='relative flex-1'>
-            <img
-              className=''
-              src='images/github-mobile.png'
-              alt='github action'
-            />
+            <img className='' src='images/secret-scan.png' alt='secret scan' />
           </div>
         </div>
       </div>
       <div className='flex text-white section-layout'>
         <Divider>
-          <VerticleLine className='transp-blue-gradient'></VerticleLine>
+          <VerticleLine className='transp-pink-gradient'></VerticleLine>
         </Divider>
         <div></div>
       </div>
