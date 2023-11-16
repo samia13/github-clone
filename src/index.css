@@ -149,3 +149,11 @@ header form {
   background: rgba(235, 245, 255, 0.2);
   border-radius: 7px;
 }
+.table .label {
+  background: rgba(235, 245, 255, 0.2);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.table.steps {
+  border-top-left-radius: 0;
+}

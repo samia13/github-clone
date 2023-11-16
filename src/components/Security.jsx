@@ -61,7 +61,10 @@ const Security = () => {
             <span className='w-8 h-[2px] bg-gray-400 rounded-md'></span>
             <span className='w-2 h-2 inline-block border bg-gray-500 border-gray-500 rounded-full'></span>
           </div>
-          <div className='table p-5'>
+          <div className='table steps p-5 relative'>
+            <div className='label absolute left-0 -top-8 px-5 py-1 text-white font-medium '>
+              steps
+            </div>
             <ul>
               <li className='flex justify-between mb-6'>
                 <h2 className='text-white flex items-center gap-2'>
