@@ -5,6 +5,7 @@ import {
   Collaboration,
   Security,
   Footer,
+  Contact,
 } from "./components";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Productivity />
         <Security />
         <Collaboration />
+        <Contact />
         <Footer />
       </main>
     </>

@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import CTA from "./CTA";
 import Hero from "./Hero";
 import SignUpButton from "./SignUpButton";
 import Divider from "./Divider";
@@ -12,6 +13,7 @@ import StatInfo from "./StatInfo";
 import Productivity from "./Productivity";
 import Collaboration from "./Collaboration";
 import Security from "./Security";
+import Contact from "./Contact";
 
 export {
   Header,
@@ -28,4 +30,6 @@ export {
   Productivity,
   Collaboration,
   Security,
+  Contact,
+  CTA,
 };

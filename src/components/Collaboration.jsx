@@ -113,12 +113,6 @@ const Collaboration = () => {
           </div>
         </div>
       </div>
-      <div className='flex text-white section-layout'>
-        <Divider>
-          <VerticleLine className='transp-pink-gradient'></VerticleLine>
-        </Divider>
-        <div></div>
-      </div>
     </section>
   );
 };
