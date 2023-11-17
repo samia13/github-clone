@@ -14,6 +14,10 @@ import Productivity from "./Productivity";
 import Collaboration from "./Collaboration";
 import Security from "./Security";
 import Contact from "./Contact";
+import SectionContent from "./SectionContent";
+import SectionIllustration from "./SectionIllustration";
+import SectionCards from "./SectionCards";
+import SectionStats from "./SectionStats";
 
 export {
   Header,
@@ -32,4 +36,8 @@ export {
   Security,
   Contact,
   CTA,
+  SectionContent,
+  SectionIllustration,
+  SectionCards,
+  SectionStats,
 };
